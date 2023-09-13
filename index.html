@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            border-spacing: 0;
+            color: aliceblue;
+            margin: auto;
+            margin-top: 50px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 60%; 
+            height: 500px;
+            border: 1px solid white;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        
+        button{
+            width: 50%;
+            height: 50px;
+            margin-bottom: 20px;
+            
+            background-color: white;
+            margin-left:50px ;
+            border-radius: 30px;
+            border: none;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        img{
+            width: 20%;
+            padding-left: 50px;
+        }
+        p{
+            width: 70%;
+            padding-left: 50px;
+            text-align: justify;
+            height: 70%;
+            padding-bottom: 0;
+        }
+        h2{
+            padding-left: 50px;
+            
+        }
+        .sedan{
+            background-color: #e28525;
+        }
+        .suv{
+            background-color: #016972;
+        }
+        .lux{
+            background-color:#01423f;
+        }
+        #btn-sed{
+            color: #e28525;
+        }
+        #btn-sed:hover{
+            background-color: #bd6a17;
+            color: white;
+            transition: .6s;
+            box-shadow: 2px 1px 10px grey;
+        }
+        #btn-suv{
+            color: #016972;
+        }
+        #btn-suv:hover{
+            background-color: #02565e;
+            color: white;
+            transition: .6s;
+            box-shadow: 2px 1px 10px grey;
+        }
+        #btn-lux{
+            color: #01423f;
+        }
+        #btn-lux:hover{
+            background-color: #013835;
+            color: white;
+            transition: .6s;
+            box-shadow: 2px 1px 10px grey;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+        <table class="table-custome">
+            <tbody >
+                <tr>
+                    <td class="sedan"><img src="sedan.png" alt="sedan"></td>
+                    <td class="suv"><img src="suv-car.png" alt="suv"></td>
+                    <td class="lux"><img src="limousine.png" alt="limo"></td>
+                </tr>
+                <tr>
+                    <td class="sedan"><h2>SEDANS</h2></td>
+                    <td class="suv"><h2>SUVs</h2></td>
+                    <td class="lux"><h2>LUXURY</h2></td>
+                </tr>
+                
+                <tr>
+                    <td class="sedan"><p>create a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip. </p></td>
+                    <td class="suv"><p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p></td>
+                    <td class="lux"><p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p></td>
+                </tr>
+                <tr>
+                    <td class="sedan" ><a href="#"><button id="btn-sed">learn more</button></a></td>
+                    <td class="suv" ><a href="#"><button id="btn-suv">learn more</button></a></td>
+                    <td class="lux" ><a href="#"><button id="btn-lux">learn more</button></a></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    
+
+</body>
+</html>
